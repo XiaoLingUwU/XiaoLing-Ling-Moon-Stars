@@ -735,3 +735,137 @@ Tab:AddButton ({
 	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(178.33023071289062, 91245.96875, 152.53775024414062)
 	end
 })
+local Tab= Window:MakeTab({
+	Name = "力量传奇",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+Tab:AddButton({	
+Name = "Speed-Hub_X",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+     end
+})
+Tab:AddButton({	
+Name = "修改力量脚本",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+     end
+})
+Tab:AddButton({	
+Name = "力量传奇最强脚本",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Main-Speed/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E6%9C%80%E5%BC%BA%E6%9C%80%E8%83%BD%E7%94%A8%E8%84%9A%E6%9C%AC(1)(1).txt"))()
+     end
+})
+Tab:AddButton({	
+Name = "ato汉化该脚本",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/ato-CN/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E8%84%9A%E6%9C%AC%E6%B1%89%E5%8C%96ato.txt"))()
+     end
+})
+Tab:AddButton({	
+Name = "Hades-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/HadesRblx/src/master/HadesHub.lua"))()
+     end
+})
+Tab:AddButton({	
+Name = "Madd-Hub_需要卡密",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/maddjester/MaddHub/main/GetKey.lua"))()
+     end
+})
+Tab:AddButton({	
+Name = "V.G-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/littlegui/main/MuscleLegends"))()
+     end
+})
+Tab:AddButton({	
+Name = "Bao-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat'))()
+     end
+})
+Tab:AddButton({	
+Name = "Mega-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+     end
+})
+Tab:AddButton({	
+Name = "欧米一脚本",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://pastebin.com/raw/CsA1RVEj"))()
+     end
+})
+local Section = Tab:AddSection({ 
+  
+         Name = "以下为内置脚本" 
+  
+ }) 
+Tab:AddToggle({ 
+         Name = "卡宠", 
+         Default = false, 
+         Callback = function(Value) 
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/-PVdfgg/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E5%8D%A1%E5%AE%A0%20(1).txt"))()   
+         end 
+ }) 
+  
+Tab:AddToggle({ 
+         Name = "自动举重[会传送]", 
+         Default = false, 
+         Callback = function(Value) 
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Tp-up/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E8%87%AA%E5%8A%A8%E4%B8%BE%E9%87%8D%E5%92%8C%E4%BC%A0%E9%80%81%E5%9C%B0%E5%9D%80.txt"))()
+         end 
+ }) 
+Tab:AddToggle({ 
+         Name = "自动举重[不传送]", 
+         Default = false, 
+         Callback = function(Value) 
+                 local part = Instance.new('Part', workspace)
+part.Size = Vector3.new(500, 20, 530.1)
+part.Position = Vector3.new(0, 1000, 133.15)
+part.CanCollide = true
+part.Anchored = true
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = part.CFrame + Vector3.new(0, 15, 0)
+
+local a = true
+local rs = game:GetService("RunService").RenderStepped
+if a == true then
+while rs:wait() do
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.ClassName == "Tool" and v.Name == "Weight" then
+v.Parent = game.Players.LocalPlayer.Character
+end
+end
+game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep")
+end
+end
+
+         end 
+ }) 
+  
+  Tab:AddToggle({ 
+         Name = "攻击无后摇", 
+         Default = false, 
+         Callback = function(Value) 
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/noobhosting/noobscript/main/MuscleLegends.lua'))()
+         end 
+ }) 
+  Tab:AddToggle({ 
+         Name = "防击飞、耐力、力量", 
+         Default = false, 
+         Callback = function(Value) 
+             loadstring(game:GetObjects("rbxassetid://10123407012")[1].Source)()    
+         end 
+ }) 
+  Tab:AddToggle({ 
+         Name = "自动刷业报", 
+         Default = false, 
+         Callback = function(Value) 
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/About-TP/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E5%88%B7%E4%B8%9A%E6%8A%A5%E8%84%9A%E6%9C%AC(1)%20(1).txt"))()  
+         end 
+ }) 
