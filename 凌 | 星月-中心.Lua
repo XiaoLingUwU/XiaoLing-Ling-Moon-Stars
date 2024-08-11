@@ -534,3 +534,78 @@ Tab:AddButton({
  end 
  }) 
   
+local Tab= Window:MakeTab({
+	Name = "速度传奇",
+	Icon = "rbxassetid://7733956134",
+	PremiumOnly = false
+})
+Tab:AddButton({	
+Name = "The Lgondbs-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://pastebin.com/raw/mqGPg69N"))()
+     end
+})
+Tab:AddButton({	
+Name = "Legends-Of-hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/SkoterScripts/Legends-Of-Speed-Script/main/Script%20For%20Legends%20Of%20Speed.txt"))() 
+     end
+})
+Tab:AddButton({	
+Name = "Data-Ez-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug42O/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+     end
+})
+Tab:AddButton({	
+Name = "NewIce-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMae17/NewIceHub/main/Brookhaven"))()
+     end
+})
+Tab:AddButton({	
+Name = "Tbao-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHublegendsofspeed"))() 
+     end
+})
+Tab:AddButton({	
+Name = "NewIce-电脑可用",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMae17/NewIceHub/main/Brookhaven"))()
+     end
+})
+local Tab= Window:MakeTab({
+	Name = "忍者传奇",
+	Icon = "rbxassetid://7733798901",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({ 
+  
+         Name = "以下不是内置" 
+  
+ }) 
+Tab:AddButton({	
+Name = "ALLHACK-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+     end
+})
+Tab:AddButton({	
+Name = "Proxima-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+     end
+})
+Tab:AddButton({	
+Name = "Space-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/spacvehubloader"))()
+     end
+})
+Tab:AddButton({	
+Name = "ExtremeAntonis-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/loader/main/loader.lua"))()
+     end
+})
