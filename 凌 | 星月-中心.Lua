@@ -609,3 +609,129 @@ Callback = function()
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/loader/main/loader.lua"))()
      end
 })
+local Section = Tab:AddSection({ 
+  
+         Name = "内置脚本[/TP 各种岛屿]" 
+  
+ }) 
+Tab:AddButton ({
+	Name = "附魔岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(83.028564453125, 766.3915405273438, -128.62686157226562)
+	end
+})
+Tab:AddButton ({
+	Name = "星界岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(144.43006896972656, 2014.091064453125, 247.5571746826172)
+	end
+})
+Tab:AddButton ({
+	Name = "神秘岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(162.7420654296875, 4047.7841796875, 13.378257751464844)
+	end
+})
+Tab:AddButton ({
+	Name = "太空岛",
+	Callback = function ()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(184.0364227294922, 5657.091796875, 161.54000854492188)
+	end
+})
+Tab:AddButton ({
+	Name = "冻土岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(186.7508544921875, 9285.08984375, 158.16287231445312)
+	end
+})
+Tab:AddButton ({
+	Name = "沙暴",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(183.7511749267578, 17686.236328125, 147.5008087158203)
+	end
+})
+Tab:AddButton ({
+	Name = "雷暴",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(186.87640380859375, 24069.9296875, 158.25582885742188)
+	end
+})
+Tab:AddButton ({
+	Name = "远古炼狱岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(166.48052978515625, 28256.201171875, 160.25828552246094)
+	end
+})
+Tab:AddButton ({
+	Name = "午夜暗影岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(182.76388549804688, 33206.88671875, 136.66305541992188)
+	end
+})
+Tab:AddButton ({
+	Name = "神秘灵魂岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(157.39967346191406, 39317.4765625, 146.05630493164062)
+	end
+			
+})
+	Tab:AddButton ({
+	Name = "冬季奇迹岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(168.73797607421875, 46010.4609375, 158.589599609375)
+	end
+})
+	Tab:AddButton ({
+	Name = "黄金大师岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(184.56202697753906, 52607.671875, 166.47279357910156)
+	end
+})
+	Tab:AddButton ({
+	Name = "龙传奇岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(166.83065795898438, 59594.58984375, 150.16586303710938)
+	end
+})
+	Tab:AddButton ({
+	Name = "赛博传奇岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(167.66766357421875, 66669.0703125, 142.27223205566406)
+	end
+})
+	Tab:AddButton ({
+	Name = "天岚超能岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(182.09237670898438, 70271.0625, 157.14857482910156)
+	end
+})
+	Tab:AddButton ({
+	Name = "混沌传奇岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(177.88784790039062, 74442.7578125, 143.346435546875)
+	end
+})
+	Tab:AddButton ({
+	Name = "灵魂融合岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(183.39129638671875, 79746.890625, 163.01148986816406)
+	end
+})
+	Tab:AddButton ({
+	Name = "黑暗元素岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(169.4972381591797, 83198.890625, 170.53890991210938)
+	end
+})
+	Tab:AddButton ({
+	Name = "禅心岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(173.4744873046875, 87050.9765625, 141.89602661132812)
+	end
+})
+Tab:AddButton ({
+	Name = "炽热漩涡之岛",
+	Callback = function ()
+	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(178.33023071289062, 91245.96875, 152.53775024414062)
+	end
+})
