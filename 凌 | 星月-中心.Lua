@@ -737,7 +737,7 @@ Tab:AddButton ({
 })
 local Tab= Window:MakeTab({
 	Name = "力量传奇",
-	Icon = "rbxassetid://7733779610",
+	Icon = "rbxassetid://7733788742",
 	PremiumOnly = false
 })
 Tab:AddButton({	
