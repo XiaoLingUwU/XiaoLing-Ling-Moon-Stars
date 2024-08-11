@@ -10,8 +10,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
   
  loadstring(game:HttpGet('https://pastes.io/raw/aek9i68ajk'))() 
   
- loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))() 
-  
            local camera = workspace.CurrentCamera 
  local blurAmount = 10 
  local blurAmplifier = 5 
@@ -64,7 +62,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
  about:AddParagraph("您当前服务器的ID"," "..game.GameId.."") 
  about:AddParagraph("琳琳&Evade!生日快乐.","") 
  about:AddParagraph("大家多多支持","") 
- about:AddParagraph("小凌的新脚本为自制非缝合","") 
+ about:AddParagraph("小凌的新脚本为半缝合","") 
  
   local Tab = Window:MakeTab({ 
    Name = "通用/玩家", 
@@ -853,13 +851,6 @@ end
          Default = false, 
          Callback = function(Value) 
           loadstring(game:HttpGet('https://raw.githubusercontent.com/noobhosting/noobscript/main/MuscleLegends.lua'))()
-         end 
- }) 
-  Tab:AddToggle({ 
-         Name = "防击飞、耐力、力量", 
-         Default = false, 
-         Callback = function(Value) 
-             loadstring(game:GetObjects("rbxassetid://10123407012")[1].Source)()    
          end 
  }) 
   Tab:AddToggle({ 
