@@ -757,12 +757,6 @@ Callback = function()
      end
 })
 Tab:AddButton({	
-Name = "ato汉化该脚本",	
-Callback = function()	
-  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/ato-CN/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E8%84%9A%E6%9C%AC%E6%B1%89%E5%8C%96ato.txt"))()
-     end
-})
-Tab:AddButton({	
 Name = "Hades-Hub",	
 Callback = function()	
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/HadesRblx/src/master/HadesHub.lua"))()
@@ -778,12 +772,6 @@ Tab:AddButton({
 Name = "V.G-Hub",	
 Callback = function()	
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/littlegui/main/MuscleLegends"))()
-     end
-})
-Tab:AddButton({	
-Name = "Bao-Hub",	
-Callback = function()	
-  	loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat'))()
      end
 })
 Tab:AddButton({	
