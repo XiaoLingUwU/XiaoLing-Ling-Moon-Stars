@@ -744,20 +744,6 @@ Callback = function()
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
      end
 })
-
-Tab:AddButton({	
-Name = "力量传奇最强脚本",	
-Callback = function()	
-  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Main-Speed/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E6%9C%80%E5%BC%BA%E6%9C%80%E8%83%BD%E7%94%A8%E8%84%9A%E6%9C%AC(1)(1).txt"))()
-     end
-})
-
-Tab:AddButton({	
-Name = "欧米一脚本",	
-Callback = function()	
-  	loadstring(game:HttpGet("https://pastebin.com/raw/CsA1RVEj"))()
-     end
-})
 local Section = Tab:AddSection({ 
   
          Name = "以下为内置脚本" 
