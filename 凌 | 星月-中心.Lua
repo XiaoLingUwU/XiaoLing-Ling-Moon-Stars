@@ -690,50 +690,7 @@ Tab:AddButton ({
 	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(178.33023071289062, 91245.96875, 152.53775024414062)
 	end
 })
-local Tab= Window:MakeTab({
-	Name = "力量传奇",
-	Icon = "rbxassetid://7733788742",
-	PremiumOnly = false
-})
-Tab:AddButton({	
-Name = "Speed-Hub_X",	
-Callback = function()	
-  	loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
-     end
-})
-local Section = Tab:AddSection({ 
-  
-         Name = "以下为内置脚本" 
-  
- }) 
-Tab:AddToggle({ 
-         Name = "自动举重[不传送]", 
-         Default = false, 
-         Callback = function(Value) 
-                 local part = Instance.new('Part', workspace)
-part.Size = Vector3.new(500, 20, 530.1)
-part.Position = Vector3.new(0, 1000, 133.15)
-part.CanCollide = true
-part.Anchored = true
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = part.CFrame + Vector3.new(0, 15, 0)
-
-local a = true
-local rs = game:GetService("RunService").RenderStepped
-if a == true then
-while rs:wait() do
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-if v.ClassName == "Tool" and v.Name == "Weight" then
-v.Parent = game.Players.LocalPlayer.Character
-end
-end
-game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep")
-end
-end
-
-         end 
- }) 
-  
   local Tab= Window:MakeTab({ 
          Name = "刀刃球", 
          Icon = "rbxassetid://7733675107", 
