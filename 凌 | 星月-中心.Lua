@@ -159,6 +159,12 @@
          end 
  }) 
  Tab:AddButton({ 
+   Name = "高亮", 
+   Callback = function() 
+ loadstring(game:HttpGet("https://pastebin.com/raw/4LDKiJ5a"))() 
+     end 
+ }) 
+ Tab:AddButton({ 
          Name = "无限跳", 
          Callback = function() 
  loadstring(game:HttpGet("https://pastebin.com/raw/V5PQy3y0", true))() 
@@ -798,4 +804,142 @@ Tab:AddButton({
     Callback = function()	
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/zuohongjian/bjb/main/Pressure')))()
    end
+})
+local Tab= Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+Tab:AddButton({ 
+         Name = "Ohio doors", 
+         Callback = function() 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/rxn-xyz/Ohio./main/Ohio.lua",true))() 
+     end 
+ }) 
+  
+Tab:AddButton({ 
+   Name = "MSDOORS", 
+   Callback = function () 
+     loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))() 
+  
+   end 
+ }) 
+Tab:AddButton({	
+Name = "KeoneGit-hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/Doors",true))()
+     end
+})
+Tab:AddButton({	
+Name = "Utilities-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+     end
+})
+Tab:AddButton({	
+Name = "Folder-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/VaniaPerets/FolderGui-FolderHub/main/loader.lua", true))()
+     end
+})
+Tab:AddButton({ 
+   Name = "微山doors1.0.4(可用)要白名单", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/weishanteam/Script/main/doors/WeiShan_Loader.lua"))() 
+   end 
+ }) 
+Tab:AddButton({ 
+   Name = "DOORS 后门 ", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/mspaint/backdoor.lua"))() 
+   end 
+ })  
+Tab:AddButton({ 
+   Name = "doors中转站卡密：114514xhxh", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://shz.al/ySeKWSdaes8TiJbZTc2XzDiS"))() 
+  
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "小云doors", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/EntitySpawner/main/doors(orionlib).lua"))() 
+   end 
+ }) 
+Tab:AddButton({ 
+   Name = "doors最强脚本汉化", 
+   Callback = function () 
+     loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))() 
+  
+   end 
+ })
+Tab:AddButton({	
+Name = "doors最强无汉化",	
+Callback = function()	
+  	    loadstring(game:HttpGet('https://pastebin.com/raw/R8QMbhzv'))()
+     end
+})  
+Tab:AddButton({ 
+         Name = "十字架", 
+         Callback = function() 
+  
+ loadstring(game:HttpGet('https://pastebin.com/raw/ibbWwU6q'))() 
+           end 
+ }) 
+ Tab:AddButton({ 
+         Name = "能量罐", 
+         Callback = function()   
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/nengliangtiao"))() 
+     end 
+ })    
+  
+ Tab:AddButton({ 
+         Name = "紫色手电筒（在电梯购买东西的时候使用）", 
+         Callback = function() 
+  
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))() 
+     end 
+ })   
+Tab:AddButton({ 
+         Name = "吸铁石", 
+         Callback = function() 
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/MagnetByNerd.lua"))() 
+     end 
+ }) 
+ Tab:AddButton({ 
+         Name = "剪刀", 
+         Callback = function() 
+  
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/shears_done.lua"))() 
+     end 
+ })     
+ Tab:AddButton({ 
+         Name = "激光枪", 
+         Callback = function() 
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))() 
+     end 
+ }) 
+ Tab:AddButton({ 
+         Name = "夜视仪", 
+         Callback = function() 
+  
+   _G.OnShop = trueloadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))() 
+     end 
+ })     
+local Tab= Window:MakeTab({
+	Name = "伐木大亨2",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+  Tab:AddButton({	
+Name = "能不能让小凌休息一下我好累...",	
+Callback = function()	
+  	local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "我的眼前好模糊...",
+    Text = "我是不是要死了...",
+    Duration = 5, 
+})
+     end
 })
