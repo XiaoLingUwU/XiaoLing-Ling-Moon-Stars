@@ -1,3 +1,9 @@
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "凌 | 星月-中心V1.5",
+    Text = "星月 | 万物生&凌月降.",
+    Duration = 5, 
+})
  print("反挂机已经为你开好了 喵~") 
                  local vu = game:GetService("VirtualUser") 
                  game:GetService("Players").LocalPlayer.Idled:connect(function() 
