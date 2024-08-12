@@ -776,17 +776,66 @@ end
          end 
  }) 
   
-  Tab:AddToggle({ 
-         Name = "攻击无后摇", 
-         Default = false, 
-         Callback = function(Value) 
-          loadstring(game:HttpGet('https://raw.githubusercontent.com/noobhosting/noobscript/main/MuscleLegends.lua'))()
-         end 
+  local Tab= Window:MakeTab({ 
+         Name = "刀刃球", 
+         Icon = "rbxassetid://7733675107", 
+         PremiumOnly = false 
  }) 
-  Tab:AddToggle({ 
-         Name = "自动刷业报", 
-         Default = false, 
-         Callback = function(Value) 
-               loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/About-TP/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E5%88%B7%E4%B8%9A%E6%8A%A5%E8%84%9A%E6%9C%AC(1)%20(1).txt"))()  
-         end 
+local Section = Tab:AddSection({ 
+  
+         Name = "以下脚本目前可用" 
+  
  }) 
+ Tab:AddButton({ 
+   Name = "BDOLL-HUB", 
+   Callback = function () 
+     _G.UI_Size = 200 -- config ui size 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "红圈格挡V3", 
+   Callback = function () 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))() 
+   end 
+ }) 
+Tab:AddButton({	
+Name = "ScouT-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kozukiremboukk/Aqui-mesml/main/blades")))()
+     end
+})
+Tab:AddButton({	
+Name = "Pitbull-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/PitbullHub/main/Scripting", true))() 
+     end
+})
+local Tab= Window:MakeTab({
+	Name = "死亡球",
+	Icon = "rbxassetid://7733779668",
+	PremiumOnly = false
+})
+Tab:AddButton({	
+Name = "Op脚本_已绕过反作弊",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Death-Bal/main/Op-Script-by-me"))() 
+     end
+})
+Tab:AddButton({	
+Name = "LOLking-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Death/main/Ball"))()
+     end
+})
+local Tab= Window:MakeTab({
+	Name = "枪球",
+	Icon = "rbxassetid://7734068495",
+	PremiumOnly = false
+})
+Tab:AddButton({	
+Name = "自动打击",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Secure/Gun-Ball/main/.lua"))()
+     end
+})
