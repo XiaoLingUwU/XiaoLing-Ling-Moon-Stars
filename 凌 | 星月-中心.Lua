@@ -749,14 +749,6 @@ local Section = Tab:AddSection({
   
  }) 
 Tab:AddToggle({ 
-         Name = "卡宠", 
-         Default = false, 
-         Callback = function(Value) 
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/-PVdfgg/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E5%8D%A1%E5%AE%A0%20(1).txt"))()   
-         end 
- }) 
-  
-Tab:AddToggle({ 
          Name = "自动举重[不传送]", 
          Default = false, 
          Callback = function(Value) 
