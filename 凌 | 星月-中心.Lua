@@ -1,14 +1,13 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{ 
-     Title = "挂机、动糊、进提、点击", 
-     Text = "以上功能已全部为你打开", 
+     Title = "挂机、动糊", 
+     Text = "已开启", 
      Icon = "rbxassetid://16060333448", 
      Duration = 60, 
      Callback = bindable, 
      Button1 = "谢谢", 
      Button2 = "关闭" 
  }) 
-  
- loadstring(game:HttpGet('https://pastes.io/raw/aek9i68ajk'))() 
+ 
   
            local camera = workspace.CurrentCamera 
  local blurAmount = 10 
@@ -757,13 +756,6 @@ Tab:AddToggle({
          end 
  }) 
   
-Tab:AddToggle({ 
-         Name = "自动举重[会传送]", 
-         Default = false, 
-         Callback = function(Value) 
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Tp-up/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E8%87%AA%E5%8A%A8%E4%B8%BE%E9%87%8D%E5%92%8C%E4%BC%A0%E9%80%81%E5%9C%B0%E5%9D%80.txt"))()
-         end 
- }) 
 Tab:AddToggle({ 
          Name = "自动举重[不传送]", 
          Default = false, 
