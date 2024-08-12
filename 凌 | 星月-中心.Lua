@@ -1,45 +1,8 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{ 
-     Title = "挂机、动糊", 
-     Text = "已开启", 
-     Icon = "rbxassetid://16060333448", 
-     Duration = 60, 
-     Callback = bindable, 
-     Button1 = "谢谢", 
-     Button2 = "关闭" 
- }) 
- 
-  
-           local camera = workspace.CurrentCamera 
- local blurAmount = 10 
- local blurAmplifier = 5 
- local lastVector = camera.CFrame.LookVector 
-  
- local motionBlur = Instance.new("BlurEffect", camera) 
-  
- local runService = game:GetService("RunService") 
-  
- workspace.Changed:Connect(function(property) 
-  if property == "CurrentCamera" then 
-   print("Changed") 
-   local camera = workspace.CurrentCamera 
-   if motionBlur and motionBlur.Parent then 
-    motionBlur.Parent = camera 
-   else 
-    motionBlur = Instance.new("BlurEffect", camera) 
-   end 
-  end 
- end) 
-  
- runService.Heartbeat:Connect(function() 
-  if not motionBlur or motionBlur.Parent == nil then 
-   motionBlur = Instance.new("BlurEffect", camera) 
-  end 
-  
-  local magnitude = (camera.CFrame.LookVector - lastVector).magnitude 
-  motionBlur.Size = math.abs(magnitude)*blurAmount*blurAmplifier/2 
-  lastVector = camera.CFrame.LookVector 
- end) 
-  
+OrionLib:MakeNotification({
+			Name = "凌 | 星月-中心",
+			Content = "反挂机已开启～",
+			Time = 5
+		})
  print("反挂机已经为你开好了 喵~") 
                  local vu = game:GetService("VirtualUser") 
                  game:GetService("Players").LocalPlayer.Idled:connect(function() 
