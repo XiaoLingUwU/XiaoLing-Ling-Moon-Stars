@@ -762,7 +762,7 @@ Callback = function()
 })
 local Tab= Window:MakeTab({
 	Name = "压力",
-	Icon = "rbxassetid://7733779610",
+	Icon = "rbxassetid://7733674820",
 	PremiumOnly = false
 })
 
@@ -807,7 +807,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/zuohongjian/bjb/main
 })
 local Tab= Window:MakeTab({
 	Name = "Doors",
-	Icon = "rbxassetid://7733779610",
+	Icon = "rbxassetid://7734022041",
 	PremiumOnly = false
 })
 Tab:AddButton({ 
@@ -938,7 +938,7 @@ Callback = function()
   	local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "我的眼前好模糊...",
-    Text = "我是不是要死了...",
+    Text = "我是不是要死了?...",
     Duration = 5, 
 })
      end
