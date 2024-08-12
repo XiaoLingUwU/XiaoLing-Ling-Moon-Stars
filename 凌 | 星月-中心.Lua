@@ -1,8 +1,3 @@
-OrionLib:MakeNotification({
-			Name = "凌 | 星月-中心",
-			Content = "反挂机已开启～",
-			Time = 5
-		})
  print("反挂机已经为你开好了 喵~") 
                  local vu = game:GetService("VirtualUser") 
                  game:GetService("Players").LocalPlayer.Idled:connect(function() 
