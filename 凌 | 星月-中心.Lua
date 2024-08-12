@@ -754,3 +754,48 @@ Callback = function()
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Secure/Gun-Ball/main/.lua"))()
      end
 })
+local Tab= Window:MakeTab({
+	Name = "压力",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+
+ Tab:AddButton({         
+ Name = "GOA-HUB",         
+ Callback = function()         
+  
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Pressure/main/GOA_HUB"))() 
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Persona_Hub",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/LordEyes2/Script/main/PersonalHub"))() 
+  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "DocYongurt",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/DocYogurt/Main/main/Scripts/Pressure"))() 
+      end 
+ })
+Tab:AddButton({	
+Name = "CryeepyEye-Hub",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://github.com/Drop56796/CreepyEyeHub/blob/main/obfuscate.lua?raw=true"))()
+     end
+})
+Tab:AddButton({	
+    Name = "BDOLL-Hub_优质By:c-a-t-s-u-s",	
+    Callback = function()	
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/pressure_kuy.lua"))()
+   end
+})
+
+Tab:AddButton({	
+    Name = "Pressure???",	
+    Callback = function()	
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zuohongjian/bjb/main/Pressure')))()
+   end
+})
