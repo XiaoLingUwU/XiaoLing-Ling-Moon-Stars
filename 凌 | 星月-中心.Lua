@@ -1,6 +1,6 @@
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "凌 | 星月-中心V2.3",
+    Title = "凌 | 星月-中心V2.5",
     Text = "星月 | 万物生&凌月降.",
     Duration = 5, 
 })
@@ -1088,17 +1088,431 @@ Tab:AddButton({
  })     
 local Tab= Window:MakeTab({
 	Name = "伐木大亨2",
-	Icon = "rbxassetid://7733779610",
+	Icon = "rbxassetid://7733799901",
 	PremiumOnly = false
 })
   Tab:AddButton({	
-Name = "能不能让小凌休息一下我好累...",	
+Name = "汉化By：ato",	
 Callback = function()	
-  	local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "我的眼前好模糊...",
-    Text = "我是不是要死了?...",
-    Duration = 5, 
-})
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Code2-Main.Lua/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A8%E5%A4%96%E6%8C%82ato%E6%B1%89%E5%8C%96%20(2)%20(1).txt"))()
      end
 })
+Tab:AddButton({	
+Name = "最强Lua_WareLoader",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+     end
+})
+Tab:AddButton({ 
+   Name = "小云-伐木大亨", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/伐木大亨22.lua", true))() 
+  
+   end 
+ }) 
+Tab:AddButton({ 
+       Name = "小云bark2.0", 
+       Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/bark2.0.lua"))() 
+       end 
+ }) 
+  
+Tab:AddButton({	
+    Name = "无汉化-Burrer-Hub",	
+    Callback = function()	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/Butterhub.txt'))()
+   end
+})
+
+Tab:AddButton({	
+    Name = "汉化Butter-hub",	
+    Callback = function()	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/Butterhub.txt'))()
+   end
+})
+
+Tab:AddButton({	
+    Name = "白-伐木脚本",	
+    Callback = function()	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A822.lua", true))()
+   end
+})
+Tab:AddButton({	
+Name = "idk😱",	
+Callback = function()	
+  	loadstring(game:HttpGet"https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx")()
+     end
+})
+Tab:AddButton({	
+Name = "装逼2.0",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://pastebin.com/raw/cG8mBrLZ"))()
+     end
+})
+Tab:AddButton({	
+Name = "超多功能👍🏻",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Codelol-Main.Lua/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A82%E8%B6%85%E5%A4%9A%E5%8A%9F%E8%83%BD(1).txt"))()
+     end
+})
+Tab:AddButton({	
+Name = "BaLoL-ooo",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936657404291084298/1006220505583460352/Script.txt')
+     end
+})
+Tab:AddButton({	
+Name = "NOOBARMY-hub",	
+Callback = function()	
+  	loadstring(game:HttpGet(("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/AXE%20LOOP%20SCRIPT"), true))()
+     end
+})
+local Tab= Window:MakeTab({ 
+         Name = "The Rake", 
+         Icon = "rbxassetid://7733779610", 
+         PremiumOnly = false 
+ }) 
+ Tab:AddButton({         
+ Name = "Zeerox-Hub",         
+ Callback = function()                loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')() 
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "CE-hub",         
+ Callback = function()         
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptemt/CE-Technologies/main/script', true))() 
+      end 
+ }) 
+ Tab:AddButton({ 
+   Name = "The Rake小云☁", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Cloud-script/main/The%20Rake.lua"))() 
+   end 
+ }) 
+ Tab:AddButton({         
+ Name = "Tiger_Admin",         
+ Callback = function()         
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Sussy-Tech",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Sussy-Tech/Scripts/main/RakeScript.lua"))() 
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "REMASTERED",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/CHEATERFUN/The-Rake-REMASTERED-Script/main/Source.lua"))() 
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "filesV3",         
+ Callback = function()         
+  
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c2c886534e662c614423ee5748353fe4.lua"))() 
+  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Devva...",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://gist.githubusercontent.com/OtarDevv/49186047e758b9b263ec5a6583a99b4b/raw/d98e767de166fa6361066e9d43ec13ab05fdad89/Rake"))(); 
+      end 
+ })
+     local Tab = Window:MakeTab({ 
+         Name = "CW(战斗勇士)", 
+         Icon = "rbxassetid://7733779610", 
+         PremiumOnly = false 
+ }) 
+Tab:AddButton({ 
+         Name = "无名", 
+         Callback = function() 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))() 
+         end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Warriors-Hub", 
+   Callback = function () 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/leakediz/top-g/main/combat%20warriors"))()  
+   end 
+ }) 
+  
+ Tab:AddButton({ 
+   Name = "电脑端Combat-Hub", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "无限体力和跳跃+", 
+   Callback = function () 
+     for i,v in pairs(getgc(true)) do 
+    if typeof(v) == "table" and rawget(v, "getIsMaxed") then 
+        v.getIsMaxed = function() 
+            return false 
+        end 
+        v.getFlags = function() 
+            return 1 
+        end 
+        v.addFlags = function(a,b) 
+            a:setFlags(0) 
+            return 
+        end 
+    end 
+    -- "There was another script here but it caused the user to crash (lag out), so it had to be removed" -KiwisASkid -- 
+    if typeof(v) == "table" and rawget(v, "spawnCharacter") then 
+        local oldfunc = v.spawnCharacter 
+        v.SpawnCharacter = function(a) 
+            for _,f in pairs(getgc(true)) do 
+                if typeof(f) == "table" and rawget(f, "getIsMaxed") then 
+                    f.getIsMaxed = function() 
+                        return false 
+                    end 
+                    f.getFlags = function() 
+                        return 1 
+                    end 
+                    f.addFlags = function(aa,b) 
+                        aa:setFlags(0) 
+                        return 
+                    end 
+                end 
+            end 
+        end 
+    end 
+    if typeof(v) == "table" and rawget(v, "getCanJump") then 
+        v.getCanJump = function() 
+            return true 
+        end 
+    end 
+    if typeof(v) == "table" and rawget(v, "JUMP_DELAY_ADD") then 
+        v.JUMP_DELAY_ADD = 0.5 
+    end 
+    if typeof(v) == "table" and rawget(v, "_setStamina") then 
+        v._setStamina = function(a, b) 
+            a._stamina = math.huge 
+            a._staminaChangedSignal:Fire(99) 
+        end 
+    end 
+ end 
+ game.StarterGui:SetCore("SendNotification", {Title = "开启成功", Text = "Script loaded, "..game.Players.LocalPlayer.DisplayName..".", Duration = 4,}) 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Zab-HUB", 
+   Callback = function () 
+     loadstring(game:HttpGet('https://itots.tk/zaphub/ZapHubFreeVersion'))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Vcsk-HUB", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "自动盾反菜", 
+   Callback = function () 
+     local lp = game.Players.LocalPlayer 
+  
+ local animationInfo = {} 
+  
+ function getInfo(id) 
+   local success, info = pcall(function() 
+       return game:GetService("MarketplaceService"):GetProductInfo(id) 
+   end) 
+   if success then 
+       return info 
+   end 
+   return {Name=''} 
+ end 
+ function block(player) 
+   keypress(0x46) 
+   wait() 
+   keyrelease(0x46) 
+ end 
+  
+ local AnimNames = { 
+   'Slash', 
+   'Swing', 
+   'Sword' 
+ } 
+  
+ function playerAdded(v) 
+     local function charadded(char) 
+       local humanoid = char:WaitForChild("Humanoid", 5) 
+       if humanoid then 
+           humanoid.AnimationPlayed:Connect(function(track) 
+               local info = animationInfo[track.Animation.AnimationId] 
+               if not info then 
+                   info = getInfo(tonumber(track.Animation.AnimationId:match("%d+"))) 
+                   animationInfo[track.Animation.AnimationId] = info 
+               end 
+  
+               if (lp.Character and lp.Character:FindFirstChild("Head") and v.Character:FindFirstChild("Head")) then 
+                   local mag = (v.Character.Head.Position - lp.Character.Head.Position).Magnitude 
+                   if mag < 15  then 
+  
+                       for _, animName in pairs(AnimNames) do 
+                           if info.Name:match(animName) then 
+                               pcall(block, v) 
+                           end 
+                       end 
+  
+                   end 
+               end 
+           end) 
+       end 
+   end 
+  
+   if v.Character then 
+       charadded(v.Character) 
+   end 
+   v.CharacterAdded:Connect(charadded) 
+ end 
+  
+ for i,v in pairs(game.Players:GetPlayers()) do 
+    if v ~= lp then 
+        playerAdded(v) 
+    end 
+ end 
+  
+ game.Players.PlayerAdded:Connect(playerAdded) 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "KEYYSYSYSTEM-Hub", 
+   Callback = function () 
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/funhaji/FunHubScriptLoader/main/RBL/KEYSYSTEM'),true))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "无敌", 
+   Callback = function () 
+     local HRP = game.Players.LocalPlayer.Character.HumanoidRootPart 
+ local spawnbox = workspace.SpawnBox 
+  
+ HRP.CFrame = spawnbox.SpawnPart.CFrame 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Tickware-Hub", 
+   Callback = function () 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tickwares/tickware/main/Tickware"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "SWeatDestrigon-HUB", 
+   Callback = function () 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tropxzz/SweatDestroyer/main/MainOperator.lua", true))()  
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Tickware-Hub", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/tickwares/tickware/main/Tickware"))() 
+   end 
+ }) 
+  
+ Tab:AddButton({ 
+   Name = "lsaaaKK-Hub", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "打死光环", 
+   Callback = function () 
+    loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()  
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Nova-Hub", 
+   Callback = function () 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "NOVA-Hub_Source2.0", 
+   Callback = function () loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Wen-NOVA1.15", 
+   Callback = function () 
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NEW_NOVA"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "Top-G_Hub", 
+   Callback = function () 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/leakediz/top-g/main/combat%20warriors"))() 
+   end 
+ }) 
+ Tab:AddButton({ 
+   Name = "1foyt-HUB", 
+   Callback = function () 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))() 
+   end 
+ }) 
+ local Tab= Window:MakeTab({ 
+         Name = "BF", 
+         Icon = "rbxassetid://7733779610", 
+         PremiumOnly = false 
+ }) 
+  
+ Tab:AddButton({         
+ Name = "Matssune-Hub",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/matssunehub.lua"))()  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Spec-X",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/xZPUHigh/Project-Spectrum/main/SpectrumX.lua"))()  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "FREE-hub",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader", true))() 
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "BLCK-Ez",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))() 
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Valk_Hub",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Scriptssz/Folder_Script/main/Valk_Hub"))()  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Mingane-Hub",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyybeta/mingane/main/MinGamingNew.lua"))()  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Vector-Hub",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Hajibeza???",         
+ Callback = function()         
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/Module/main/Mobile_Script.lua'))()  
+      end 
+ }) 
+ Tab:AddButton({         
+ Name = "Speed-Hub-X",         
+ Callback = function()         
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()  
+      end 
+ }) 
