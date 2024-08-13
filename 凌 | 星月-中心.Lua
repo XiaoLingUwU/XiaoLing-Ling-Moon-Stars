@@ -558,12 +558,6 @@ Callback = function()
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/-/main/AutoGetIDK(NinjaLegend)"))()
      end
 })
-Tab:AddButton({	
-Name = "点我修复↑↑的bug",	
-Callback = function()	
-  	while wait() dogame.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = Getend
-     end
-})
 Tab:AddButton({ 
 	Name = "RoLLu-Hub超强",
 	Callback = function()
@@ -1103,25 +1097,13 @@ local Tab= Window:MakeTab({
 	Icon = "rbxassetid://7733799901",
 	PremiumOnly = false
 })
-  Tab:AddButton({	
-Name = "汉化By：ato",	
-Callback = function()	
-  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Code2-Main.Lua/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A8%E5%A4%96%E6%8C%82ato%E6%B1%89%E5%8C%96%20(2)%20(1).txt"))()
-     end
-})
+
 Tab:AddButton({	
 Name = "最强Lua_WareLoader",	
 Callback = function()	
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
      end
 })
-Tab:AddButton({ 
-   Name = "小云-伐木大亨", 
-   Callback = function () 
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/伐木大亨22.lua", true))() 
-  
-   end 
- }) 
 Tab:AddButton({ 
        Name = "小云bark2.0", 
        Callback = function() 
@@ -1155,18 +1137,7 @@ Callback = function()
   	loadstring(game:HttpGet"https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx")()
      end
 })
-Tab:AddButton({	
-Name = "装逼2.0",	
-Callback = function()	
-  	loadstring(game:HttpGet("https://pastebin.com/raw/cG8mBrLZ"))()
-     end
-})
-Tab:AddButton({	
-Name = "超多功能👍🏻",	
-Callback = function()	
-  	loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/Codelol-Main.Lua/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A82%E8%B6%85%E5%A4%9A%E5%8A%9F%E8%83%BD(1).txt"))()
-     end
-})
+
 Tab:AddButton({	
 Name = "BaLoL-ooo",	
 Callback = function()	
