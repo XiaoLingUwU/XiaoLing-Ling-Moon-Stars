@@ -896,6 +896,18 @@ Callback = function()
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Death/main/Ball"))()
      end
 })
+Tab:AddButton({
+
+	Name = "LOLking-hub卡密如果没用就删了感叹号",
+
+	Callback = function()
+
+     setclipboard("RobloxNewBestBall!!")
+
+  	end
+
+})
+
 local Tab= Window:MakeTab({
 	Name = "枪球",
 	Icon = "rbxassetid://7734068495",
