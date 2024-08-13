@@ -1139,12 +1139,6 @@ Callback = function()
 })
 
 Tab:AddButton({	
-Name = "BaLoL-ooo",	
-Callback = function()	
-  	loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936657404291084298/1006220505583460352/Script.txt')
-     end
-})
-Tab:AddButton({	
 Name = "NOOBARMY-hub",	
 Callback = function()	
   	loadstring(game:HttpGet(("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/AXE%20LOOP%20SCRIPT"), true))()
