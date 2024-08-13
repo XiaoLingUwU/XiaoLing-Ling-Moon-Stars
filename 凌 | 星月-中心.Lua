@@ -552,6 +552,18 @@ local Section = Tab:AddSection({
          Name = "以下不是内置" 
   
  }) 
+Tab:AddButton({	
+Name = "自动收集 气、钱、宝石有bug",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/-/main/AutoGetIDK(NinjaLegend)"))()
+     end
+})
+Tab:AddButton({	
+Name = "点我修复↑↑的bug",	
+Callback = function()	
+  	while wait() dogame.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = Getend
+     end
+})
 Tab:AddButton({ 
 	Name = "RoLLu-Hub超强",
 	Callback = function()
