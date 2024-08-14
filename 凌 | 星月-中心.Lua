@@ -1493,3 +1493,63 @@ Tab:AddButton({
            loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()  
       end 
  }) 
+local Tab= Window:MakeTab({
+	Name = "吃掉世界",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+Tab:AddButton({	
+Name = "Rid20.Mk",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Eat-the-World-script/main/Eat%20the%20world%20Script"))()
+     end
+})
+Tab:AddButton({	
+Name = "Main MenuV1.2",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/R1nn1/MainMenu1/main/MainMenuV1.2"))() 
+     end
+})
+local Tab= Window:MakeTab({
+	Name = "彩虹盆友",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+Tab:AddButton({	
+Name = "主要的/Ture2",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/OfficialOasisScript/OasisGameScripts/main/MainScripts/RainbowFriends.lua', true))()
+     end
+})
+Tab:AddButton({	
+Name = "Ez hub",	
+Callback = function()	
+  loadstring(game:HttpGet("https://pastebin.com/raw/0fRs279k"))()
+     end
+})
+Tab:AddButton({	
+Name = "CH-HUB",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/CHHub/main/CHHub.lua"))()
+     end
+})
+Tab:AddButton({	
+Name = "ZREALKING",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua'))()
+
+     end
+})
+Tab:AddButton({	
+Name = "Block-hub",	
+Callback = function()	
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+     end
+})
+Tab:AddButton({	
+Name = "Launcher.Exe",	
+Callback = function()	
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/Launcher-Exe/Launcher-Exe/main/rainbow.lua"))();  
+
+     end
+})
